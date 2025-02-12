@@ -15,13 +15,15 @@ class TogetherImageGenerator:
         """
         Initialize the image generator with API key
         """
+        self.model="black-forest-labs/FLUX.1-schnell",
+        self.steps=4
         self.client = Together(api_key=api_key)
     
     def generate_image(self, prompt, 
-                      model="stabilityai/stable-diffusion-xl-base-1.0",
+                      model="black-forest-labs/FLUX.1-schnell",
                       steps=4, 
                       width=1024, 
-                      height=1024,
+                      height=1792,
                       filename=None):
         """
         Generate and save an image from text prompt
