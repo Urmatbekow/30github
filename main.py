@@ -5,7 +5,7 @@ API_KEY = "8ed6a19ef7f4177fdb79eec1dab85eee9a4e6342147688a44f7c695535e56f02"
 model = client_model()
 
 #before prompt
-base_beg_prompt = 'write me a prompt for image generation model, to draw an infographics with very good details like in an encyclopedia about'
+base_beg_prompt = 'write me a prompt for image generation model, to draw an infographics with very good details like in an encyclopedia, you need to give the texts with intructions like pixel left right up and so on, about'
 
 #key topic prompt
 instruction_prompt = 'open ai history '
