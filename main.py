@@ -8,7 +8,7 @@ model = client_model()
 base_beg_prompt = 'write me a prompt for image generation model, to draw an infographics with very good details like in an encyclopedia about'
 
 #key topic prompt
-instruction_prompt = '1916 years genoside of kyrgyz population'
+instruction_prompt = 'open ai history '
 
 #final instruction prompt
 base_end_prompt = '. consider the fact that image generation models can not really write texts well, can not draw the explanation. The last 5 symbols of your response should be a hash out of this prompt(you can use any symbol)'
