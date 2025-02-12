@@ -1,5 +1,7 @@
 # 30github
 
+-- Gotta fine tune the model
+
 It's gonna be hot here
 
                                     __...----..
