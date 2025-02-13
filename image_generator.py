@@ -1,8 +1,3 @@
-import requests
-import os
-from PIL import Image
-from io import BytesIO
-
 API_KEY = "8ed6a19ef7f4177fdb79eec1dab85eee9a4e6342147688a44f7c695535e56f02"  # Replace with your Together AI key
 
 from together import Together
