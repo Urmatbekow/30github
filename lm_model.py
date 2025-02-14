@@ -5,7 +5,7 @@ from together import Together
 import os
 os.environ["TOGETHER_API_KEY"] = "8ed6a19ef7f4177fdb79eec1dab85eee9a4e6342147688a44f7c695535e56f02"
 
-Together.api_key = "8ed6a19ef7f4177fdb79eec1dab85eee9a4e6342147688a44f7c695535e56f02" 
+#Together.api_key = "8ed6a19ef7f4177fdb79eec1dab85eee9a4e6342147688a44f7c695535e56f02" 
 
 
 
