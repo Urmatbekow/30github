@@ -1,6 +1,7 @@
 # 30github
 
 -- Gotta fine tune the model
+-- need to find some text based photoshops
 
 It's gonna be hot here
 
