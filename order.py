@@ -1,4 +1,5 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
+from sklearn.tree import DecisionTreeClassifier
 
 tokenizer = AutoTokenizer.from_pretrained("your-transformers-model")
 model_transformers = AutoModelForSequenceClassification.from_pretrained("your-transformers-model")
