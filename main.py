@@ -17,12 +17,12 @@ base_end_prompt = '. consider the fact that image generation models can not real
 
 
 
-response = model.create_slide(text = 'write me prompt for image gen model to make pixel style night new york skyscrapers with a place to big square shape billboard' )#base_beg_prompt + instruction_prompt + base_end_prompt)
-slide_prompt = response.choices[0].message.content
+#response = model.create_slide(text = 'write me prompt for image gen model to make pixel style night new york skyscrapers with a place to big square shape billboard' )#base_beg_prompt + instruction_prompt + base_end_prompt)
+#slide_prompt = response.choices[0].message.content
 
 
-print(slide_prompt)
+#print(slide_prompt)
 
 
 generator = TogetherImageGenerator(API_KEY)
-saved_path = generator.generate_image(prompt=slide_prompt[:-10], filename=f"{slide_prompt[-10:-2]}.png")
+saved_path = generator.generate_image(prompt= '')#slide_prompt[:-10], filename=f"{slide_prompt[-10:-2]}.png")
