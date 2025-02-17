@@ -9,6 +9,10 @@ def index_initial_documents(ds):
     ]
     ds.index_documents(docs)
 
+def model_train(models, X, y):
+    for model in models:
+        return model.fit(X, y)
+
 def add_new_document(ds, doc_id, text):
     new_doc = Document(id=doc_id, text=text)
     ds.index_documents([new_doc])
